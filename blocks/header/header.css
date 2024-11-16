@@ -40,6 +40,8 @@ header nav[aria-expanded="true"] {
   header nav {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   header nav[aria-expanded="true"] {
@@ -51,6 +53,22 @@ header nav[aria-expanded="true"] {
 header nav p {
   margin: 0;
   line-height: 1;
+}
+
+header .search-container .form  div div p{
+  display: flex
+}
+
+header .search-container #globalsearch{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 34px;
+}
+
+header .search-container .icon-search{
+ position: relative;
+ left: 30px;
+ top:5px;
 }
 
 header nav a:any-link {
@@ -172,6 +190,7 @@ header nav .nav-sections ul  {
   padding-left: 0;
   font-size: var(--body-font-size-s);
   font-weight: 500;
+  justify-content: end;
 }
 
 header nav .nav-sections ul > li {

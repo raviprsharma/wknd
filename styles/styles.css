@@ -18,6 +18,8 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --footer-background-color: #202020;
+  --footer-text-color: #ebebeb;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -62,7 +64,7 @@
 body {
   font-size: var(--body-font-size-m);
   margin: 0;
-  font-family: var(--body-font-family);
+  font-family: var(--fontFamilySansSerif,"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif,--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);

@@ -1,0 +1,32 @@
+
+.social-links-container .default-content-wrapper{
+    display: flex;
+    margin: inherit;
+  }
+  
+  .social-links-container ul{
+    list-style-type: none;
+    display: flex;
+    margin-top:0px;
+  }
+  
+.social-links a.button{
+    border-radius: 0px;
+    margin-top: -10px;
+    background-color: var(--footer-text-color) !important;
+  }
+  
+.social-links div:first-child{
+    margin-right: 10px;
+  }
+  
+  
+.social-links-container ul li{
+    padding: 0px 10px;
+  }
+  
+  
+.social-links-container .social-links-wrapper .social-links div{
+    display: flex;
+  }
+  
